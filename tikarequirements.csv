@@ -1,0 +1,198 @@
+Requirement Number,Requirement
+0,Port Metadata Framework from Nutch
+1,Lius Lite remove all lucene dependencies from Lius  and use Nutch office parsers
+2,MimeTypeUtils.getMimeType() returns the default mime type for .odt (Open Office) files.
+3,Port Nutch (or better) MimeType detection system into Tika
+4,A convenience method for getting a document's text in a single method would be helpful.
+5,A convenience method for getting a document's content's text would be helpful.
+6,Provide a method that will return a default configuration (TikaConfig).
+7,Tika needs to support diverse character encodings.
+8,Add dummy parser classes to be used as sentinels
+9,Add an auto-detecting Parser implementation
+10,Add MimeTypes.getMimeType(InputStream)
+11,Tika GUI
+12,Tika CLI
+13,Add support for Visio files
+14,node() support for the streaming XPath utility
+15,Add a composite parser
+16,Add ParsingReader
+17,Support external parser programs
+18,Parser for zip files
+19,Parser for tar files
+20,Stream compression support
+21,Java class file parser
+22,Add support for retrieving ID3 tags from MP3 files
+23,Outlook msg parser
+24,|Add Parser.parse(InputStream, Metadata) for metadata extraction|
+25,Metadata parser for basic audio types
+26,Retrotranslate Tika for use in Java 1.4 environments
+27,Allow clients to listen to the raw SAX events if available
+28,Extract lyrics and other text from MIDI audio files
+29,Support for Office XML files
+30,Allow URL drag and drop in the Tika GUI
+31,Add OSGi metadata to Tika
+32,Scanning of archive files
+33,Site search powered by Lucene/Solr
+34,Utility method in MimeUtils to perform full mime resolution using all available strategies
+35,Zip bomb prevention
+36,Ease of use -facade for Tika
+37,Rough cut of mbox parser
+38,patch: initial support for ePUB
+39,Parse context
+40,Allow disabling language detection in AutoDetectParser
+41,SWF parser
+42,Provide full Tika bundle
+43,Add parser for .flv videos
+44,Pass Locale information to parsers
+45,Add publisher support
+46,Ability to limit the amount of extracted text
+47,netCDF Tika Parser
+48,Image metadata extraction
+49,DOAP file to recognize Tika on projects.a.o
+50,[Patch] Fetch the composer information in the MP3 Parser
+51,Update OutlookExtractor to match new POI API
+52,Geographic metadata namespace
+53,Update parsers to extract geographic metadata
+54,Support for iWork documents
+55,[PATCH] Integration of boilerpipe: Boilerplate Removal and Fulltext Extraction from HTML pages
+56,Feed Parser
+57,Tika App command line option to list the registered parsers and their supported mime types
+58,Post link to Tika in Action on Tika website
+59,Print the supported Metadata models and their associated met keys in tika-app
+60,Display embedded images in the GUI Formatted Text pane where they occur in the document
+61,Tika Web Service Servlet
+62,HDF4/5 Tika Parser
+63,Add a ContentHandler for collecting links from parser output
+64,Out-of-process text extraction
+65,Support TNEF (winmail.dat) via POI
+66,RFC822 messages not parsed
+67,JSON output from Tika CLI
+68,Support encryption formats
+69,Add ApertureParser
+70,Pluggable magic header detectors
+71,Lucene Document builder
+72,Allow passing of files or memory buffers to parsers
+73,Support of CHM Format
+74,Container aware mimetype detection
+75,Add ability to create language profiles to tika-app
+76,Tika + Hadoop
+77,Container contents extraction
+78,Lithuanian language identification
+79,Provide version number by CLI argument -V
+80,Specify PDFBox options via ParseContext
+81,TikaCLI should include a --list-detectors option similar to --list-parsers
+82,Microsoft Project (MPP) basic support
+83,Parsing outlook format template (.oft )
+84,Support magic(5) files
+85,Need API to get list of embedded documents
+86,Tika network server
+87,Provide version number in tika-server
+88,Parse links in PDF
+89,Tika's PDFParser fails to parse documents embedded in a PDF Package
+90,Add parameter to tika-app to supply password for decryption
+91,Signed pdf parsing
+92,Parser for font files
+93,Add regular expression support to the MagicDetector
+94,Support of Deja Vu (DjVu) format
+95,Specify HTMLHandler via Context
+96,Full identification of the JPEG 2000 family of formats
+97,Add ability to check if a mime-type is already registered
+98,Add additional fields to MimeType reader
+99,Allow custom MimeTypesReader
+100,Support IPA files in ZipDetector
+101,Extract text from textbox in XLSX
+102,Add support for Outlook PST
+103,Extract images from PDF documents
+104,Tika --extract fails for RTF
+105,extract text from jpeg in solr tika
+106,Translation
+107,ENVI header parser
+108,Add Lingo24Translate implementation of Translate API
+109,Add Flash parser
+110,Add TikaConfigDumperExample to example package
+111,OCR support
+112,Extract documents embedded within annotations in PDFs
+113,Tika GDAL parser
+114,JAXRS server: allow passing PDF password in the request
+115,Build a parser to extract data from GRIB formats
+116,Create TesseractOCR Option to Never Run
+117,Create a Parser Blacklist
+118,Create a Latin1 charset raw string parser
+119,Expose characters offsets information while parsing text-based inputs.
+120,Backup plan for parsing
+121,PHP version of Tika
+122,Utility script for pushing 3rd Party UCAR Dependencies to Maven Central
+123,HTTP Accept header evaluator
+124,Enable CORS on Tika Server
+125,ISA-Tab parsers
+126,Create a parser for SQLite3
+127,DIF Parser
+128,Geographic Information Parser
+129,CBOR Parser and detection [improvement]
+130,Addition of iso19139 mimetypes
+131,Geo Topic Parser
+132,Add EXIFTool as an ExternalParser
+133,Create Example Website with Form Submission
+134,XMP output from Tika CLI
+135,Detecting standards-non-compliant emails as message/rfc822
+136,Add encryption support to Jackcess parser
+137,Integrate the GROBID PDF extractor in Tika
+138,JAXRS Service should provide XHTML resource in addition to std plain-text
+139,|Add language identification support for North Sami, Lule Sami and South Sami|
+140,Integrate Natural Language Toolkit (NLTK) into Tika to perform Named Entity Recognition
+141,CSS parser plugin
+142,Language Identification with Text Processing Toolkit from MITLL
+143,Integrate MIT Information Extraction(MITIE) into Tika to perform Named Entity Recognition
+144,Add XMPMM metadata extraction to JempboxExtractor
+145,Image Recognition with Tika
+146,Create a Tika Translator implementation that uses JoshuaDecoder
+147,Add experimental SAX/Streaming XWPF/docx extractor
+148,Add JBIG2 image parsing support
+149,A parser that combines Apache OpenNLP and Apache Tika and provides facilities for automatically deriving sentiment from text.
+150,CLAVIN Integration
+151,Extract watermarks from Word documents
+152,Integrate with Java-7 FileTypeDetector API
+153,Build a parser to extract data from .dif format
+154,Build a parser to extract data from .iso19139 format
+155,Allow thumbnails as document metadata
+156,Support X12 files
+157,Speech recognition
+158,Parser for EDF files
+159,Identify and parse the Apple iBooks format
+160,Tika add parsing support for ANPA-1312 news wire feeds
+161,Parser for executables (metadata)
+162,|Matroska (mkv, mka, webm) Detector|
+163,Output document outlinks
+164,Extend tika-server API to be consistent with tika-app CLI
+165,Creative Suite formats support
+166,EXIF extraction from PNG images
+167,.NET version of Tika
+168,Apache Tika for enabling metadata interoperability
+169,Add language identification support for Norwegian Bokmål and Norwegian Nynorsk
+170,Try to integrate java-hwp into Tika
+171,Add Tika wrapper to handle Visio .vsdx files once parser is available in POI
+172,Tika parser for SEG-Y files and new MIME type application/segy
+173,|Support CJK (Chinese, Japanese and Korean) language detection|
+174,Support for macro languages
+175,Support Topic Modeling in Tika
+176,Add configurability for language detection to BasicContentHandlerFactory
+177,Author profile parser
+178,Create resettable OutputStream to support "backoff on exception" strategy
+179,Direct Access to the PDFBox Object
+180,Output SNOMED codes for CUIs in CTAKES output?
+181,Docker with Tika Server
+182,Parser Implementation for AkomaNtoso Legal XML Documents
+183,Parser implementration for IFC files
+184,Parser Implementation for Streaming Video
+185,Leverage Google's LibPhonenumber for enhanced phone number extraction and metadata modeling
+186,ExifTool Parser
+187,ExifTool Embedder
+188,Make Option to Exclude Embedded Files' Text for Text Content
+189,MicrodataContentHandler for Apache Tika
+190,Tika Parser for GIBS Metadata
+191,New Tika plugin for image based feature extraction using computer vision techniques
+192,Translate Metadata and Content
+193,Create parser for .obo file format.
+194,Add example to show how to extract embedded files
+195,Adding TagRatio to Tika Parser
+196,Age Detection Tika Recogniser
